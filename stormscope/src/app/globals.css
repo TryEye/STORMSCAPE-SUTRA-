@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════
+   StormScope Design System — Tailwind v4 Theme
+   Based on DesignSystem.md (source of truth)
+   ═══════════════════════════════════════════════════════ */
+
+@theme inline {
+  /* ── Core Palette ── */
+  --color-deep-ocean: #07111D;
+  --color-ocean-surface: #0F1E33;
+  --color-ocean-mid: #132842;
+  --color-horizon-blue: #38BDF8;
+  --color-monsoon-teal: #2DD4BF;
+  --color-terrain-sand: #D6C3A5;
+  --color-cloud-white: #F8FAFC;
+  --color-mist-gray: #94A3B8;
+  --color-storm-gray: #64748B;
+
+  /* ── Hazard Scale ── */
+  --color-hazard-low: #22C55E;
+  --color-hazard-moderate: #F59E0B;
+  --color-hazard-high: #EF4444;
+  --color-hazard-extreme: #B91C1C;
+
+  /* ── Semantic Aliases ── */
+  --color-background: #07111D;
+  --color-foreground: #F8FAFC;
+  --color-surface: #0F1E33;
+  --color-surface-elevated: #132842;
+  --color-primary: #38BDF8;
+  --color-accent: #2DD4BF;
+  --color-muted: #94A3B8;
+  --color-border: rgba(56, 189, 248, 0.12);
+  --color-border-subtle: rgba(148, 163, 184, 0.08);
+
+  /* ── Typography ── */
+  --font-heading: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* ── Border Radius (DesignSystem.md §6) ── */
+  --radius-control: 10px;
+  --radius-card: 18px;
+  --radius-panel: 24px;
+  --radius-map: 24px;
+  --radius-hero: 32px;
+
+  /* ── Motion Durations (DesignSystem.md §12) ── */
+  --duration-fast: 150ms;
+  --duration-standard: 250ms;
+  --duration-reveal: 450ms;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Base Styles
+   ═══════════════════════════════════════════════════════ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-deep-ocean);
+  color: var(--color-cloud-white);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.35);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: rgba(56, 189, 248, 0.25);
+  color: var(--color-cloud-white);
+}
+
+/* ── Focus Ring ── */
+*:focus-visible {
+  outline: 2px solid var(--color-horizon-blue);
+  outline-offset: 2px;
+}
+
+/* ═══════════════════════════════════════════════════════
+   MapLibre Overrides
+   ═══════════════════════════════════════════════════════ */
+
+.maplibregl-map {
+  font-family: var(--font-body);
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px !important;
+  background-color: rgba(7, 17, 29, 0.7) !important;
+  color: var(--color-mist-gray) !important;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--color-horizon-blue) !important;
+}
+
+.maplibregl-popup-content {
+  background: var(--color-ocean-surface) !important;
+  color: var(--color-cloud-white) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-control) !important;
+  padding: 12px 16px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: var(--color-ocean-surface) !important;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Utility Classes
+   ═══════════════════════════════════════════════════════ */
+
+.glass-panel {
+  background: rgba(15, 30, 51, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.08);
+}
+
+.glow-horizon {
+  box-shadow: 0 0 24px rgba(56, 189, 248, 0.08);
+}
+
+.text-gradient-ocean {
+  background: linear-gradient(135deg, var(--color-horizon-blue), var(--color-monsoon-teal));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

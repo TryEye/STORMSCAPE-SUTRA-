@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "road-nh16", "name": "NH-16 Coastal Trunk Highway", "type": "road", "exposure": "High" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [84.62, 19.14],
+          [84.80, 19.32],
+          [85.18, 19.72],
+          [85.62, 20.08],
+          [85.82, 20.30],
+          [85.88, 20.47],
+          [86.18, 20.80],
+          [86.50, 21.06],
+          [86.93, 21.49],
+          [87.22, 21.76]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-nh316", "name": "NH-316 Bhubaneswar–Puri–Konark", "type": "road", "exposure": "Extreme" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.82, 20.30],
+          [85.83, 20.12],
+          [85.83, 19.95],
+          [85.83, 19.81],
+          [86.09, 19.89]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-nh53", "name": "NH-53 Cuttack–Paradeep Port Link", "type": "road", "exposure": "High" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.88, 20.47],
+          [86.18, 20.41],
+          [86.44, 20.34],
+          [86.61, 20.32]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "road-nh55", "name": "NH-55 Cuttack–Angul–Sambalpur Corridor", "type": "road", "exposure": "Moderate" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [85.88, 20.47],
+          [85.60, 20.66],
+          [85.10, 20.84],
+          [84.42, 21.12],
+          [83.98, 21.47]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-puri", "name": "Puri District Hospital & Urban Core", "type": "settlement", "category": "Hospital", "exposure": "Extreme", "buildings": 42500 },
+      "geometry": { "type": "Point", "coordinates": [85.8312, 19.8135] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-konark", "name": "Konark Coastal Cyclone Shelter Cluster", "type": "settlement", "category": "Shelter", "exposure": "Extreme", "buildings": 11200 },
+      "geometry": { "type": "Point", "coordinates": [86.0945, 19.8876] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-bhubaneswar", "name": "Bhubaneswar AIIMS & Capital Infrastructure", "type": "settlement", "category": "Hospital", "exposure": "High", "buildings": 31200 },
+      "geometry": { "type": "Point", "coordinates": [85.8245, 20.2961] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-cuttack", "name": "Cuttack SCB Medical & Mahanadi Hub", "type": "settlement", "category": "Hospital", "exposure": "High", "buildings": 24800 },
+      "geometry": { "type": "Point", "coordinates": [85.8830, 20.4625] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-paradeep", "name": "Paradeep Deep-Water Port & Industrial Zone", "type": "settlement", "category": "Port", "exposure": "High", "buildings": 18400 },
+      "geometry": { "type": "Point", "coordinates": [86.6114, 20.3166] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-kendrapara", "name": "Kendrapara Delta Cyclone Shelters", "type": "settlement", "category": "Shelter", "exposure": "High", "buildings": 14600 },
+      "geometry": { "type": "Point", "coordinates": [86.4220, 20.5010] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-dhamra", "name": "Dhamra Coastal Port & Logistics Node", "type": "settlement", "category": "Port", "exposure": "Moderate", "buildings": 8900 },
+      "geometry": { "type": "Point", "coordinates": [86.8980, 20.7930] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-bhadrak", "name": "Bhadrak Rail & Transit Hub", "type": "settlement", "category": "Commercial", "exposure": "Moderate", "buildings": 18200 },
+      "geometry": { "type": "Point", "coordinates": [86.5015, 21.0545] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-balasore", "name": "Balasore Coastal Settlement & Medical Hub", "type": "settlement", "category": "Settlement", "exposure": "Moderate", "buildings": 14600 },
+      "geometry": { "type": "Point", "coordinates": [86.9335, 21.4934] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-berhampur", "name": "Berhampur & Gopalpur Port Corridor", "type": "settlement", "category": "Port", "exposure": "Moderate", "buildings": 13400 },
+      "geometry": { "type": "Point", "coordinates": [84.7941, 19.3150] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-sambalpur", "name": "Sambalpur Inland Regional Center", "type": "settlement", "category": "Settlement", "exposure": "Low", "buildings": 3400 },
+      "geometry": { "type": "Point", "coordinates": [83.9812, 21.4669] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-rourkela", "name": "Rourkela Industrial Hub (Sundargarh)", "type": "settlement", "category": "Industrial", "exposure": "Low", "buildings": 3900 },
+      "geometry": { "type": "Point", "coordinates": [84.8536, 22.2604] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "inf-koraput", "name": "Koraput Highland District Hub", "type": "settlement", "category": "Settlement", "exposure": "Low", "buildings": 4200 },
+      "geometry": { "type": "Point", "coordinates": [82.7109, 18.8135] }
+    }
+  ]
+}

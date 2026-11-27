@@ -1,0 +1,58 @@
+{
+  "presets": [
+    {
+      "location": "Puri",
+      "coordinates": { "lat": 19.8135, "lng": 85.8312 },
+      "exposureIndex": 88,
+      "floodIndicator": "High",
+      "terrainIndicator": "Low Elevation Coastal Zone",
+      "cycloneFrequencyIndicator": "High",
+      "overallCategory": "High",
+      "recommendation": "Requires Detailed Assessment",
+      "details": [
+        { "label": "Historical Exposure Index", "value": 88, "interpretation": "High historical exposure due to direct landfall proximity and low elevation.", "level": "High" },
+        { "label": "Flood Susceptibility", "value": "High", "interpretation": "Coastal flood risk elevated due to storm surge history and proximity to shoreline.", "level": "High" },
+        { "label": "Terrain Assessment", "value": "Low Elevation", "interpretation": "Site elevation below 10m MSL increases exposure to storm surge and flooding.", "level": "High" },
+        { "label": "Cyclone Frequency", "value": "1 per 4 years", "interpretation": "Region experiences cyclonic activity approximately once every 4 years.", "level": "Moderate" }
+      ]
+    },
+    {
+      "location": "Bhubaneswar",
+      "coordinates": { "lat": 20.2961, "lng": 85.8245 },
+      "exposureIndex": 52,
+      "floodIndicator": "Moderate",
+      "terrainIndicator": "Inland Elevated",
+      "cycloneFrequencyIndicator": "Moderate",
+      "overallCategory": "Moderate",
+      "recommendation": "Additional Investigation Recommended",
+      "details": [
+        { "label": "Historical Exposure Index", "value": 52, "interpretation": "Moderate historical exposure. Inland location provides partial protection.", "level": "Moderate" },
+        { "label": "Flood Susceptibility", "value": "Moderate", "interpretation": "Urban drainage and river proximity create moderate flood susceptibility.", "level": "Moderate" },
+        { "label": "Terrain Assessment", "value": "Elevated Inland", "interpretation": "Higher elevation reduces storm surge risk. Wind exposure remains relevant.", "level": "Low" },
+        { "label": "Cyclone Frequency", "value": "1 per 4 years", "interpretation": "Region experiences significant wind impacts from cyclones at this frequency.", "level": "Moderate" }
+      ]
+    },
+    {
+      "location": "Sambalpur",
+      "coordinates": { "lat": 21.4669, "lng": 83.9812 },
+      "exposureIndex": 22,
+      "floodIndicator": "Low",
+      "terrainIndicator": "Inland Elevated Plateau",
+      "cycloneFrequencyIndicator": "Low",
+      "overallCategory": "Low",
+      "recommendation": "Suitable For Development",
+      "details": [
+        { "label": "Historical Exposure Index", "value": 22, "interpretation": "Low historical exposure. Significant distance from typical cyclone paths.", "level": "Low" },
+        { "label": "Flood Susceptibility", "value": "Low", "interpretation": "Inland plateau location with minimal historical flooding from cyclonic events.", "level": "Low" },
+        { "label": "Terrain Assessment", "value": "Elevated Plateau", "interpretation": "Elevated terrain provides natural protection from coastal hazards.", "level": "Low" },
+        { "label": "Cyclone Frequency", "value": "Residual effects only", "interpretation": "Location experiences only residual wind and rainfall from major cyclone events.", "level": "Low" }
+      ]
+    }
+  ],
+  "buildingCategories": ["Residential", "Commercial", "School", "Hospital", "Industrial", "Government"],
+  "heightRanges": [
+    { "label": "Low-rise (1-3 floors)", "min": 3, "max": 12 },
+    { "label": "Mid-rise (4-7 floors)", "min": 12, "max": 24 },
+    { "label": "High-rise (8+ floors)", "min": 24, "max": 60 }
+  ]
+}

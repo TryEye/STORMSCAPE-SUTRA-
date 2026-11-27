@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hz-landfall-core",
+        "name": "Puri–Konark Landfall Core Zone",
+        "hazardCategory": "Extreme",
+        "windRange": "175–215 km/h",
+        "surgeEstimate": "1.5–2.2 m",
+        "description": "Direct eyewall impact corridor during Cyclone Fani landfall (3 May 2019)."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [85.25, 19.65],
+          [85.85, 19.72],
+          [86.25, 19.95],
+          [86.10, 20.22],
+          [85.65, 20.18],
+          [85.20, 19.92],
+          [85.25, 19.65]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hz-coastal-high",
+        "name": "Central Coastal High-Hazard Corridor",
+        "hazardCategory": "High",
+        "windRange": "120–175 km/h",
+        "surgeEstimate": "0.8–1.5 m",
+        "description": "Sustained severe gale winds and coastal inundation across Puri, Khordha, Jagatsinghpur, Cuttack, and Kendrapara."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.90, 19.50],
+          [85.60, 19.60],
+          [86.45, 20.00],
+          [86.85, 20.65],
+          [86.45, 20.90],
+          [85.65, 20.75],
+          [85.05, 20.35],
+          [84.80, 19.85],
+          [84.90, 19.50]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hz-northern-moderate",
+        "name": "Northern Coastal & Deltaic Transition Zone",
+        "hazardCategory": "Moderate",
+        "windRange": "80–120 km/h",
+        "surgeEstimate": "0.3–0.8 m",
+        "description": "Strong squally winds and heavy precipitation across Jajpur, Bhadrak, Balasore, and northern Ganjam."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.45, 19.20],
+          [85.20, 19.45],
+          [86.65, 20.55],
+          [87.10, 21.45],
+          [86.95, 21.90],
+          [86.25, 21.75],
+          [85.45, 21.15],
+          [84.85, 20.45],
+          [84.35, 19.60],
+          [84.45, 19.20]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hz-inland-low",
+        "name": "Inland Peripheral Wind & Rain Zone",
+        "hazardCategory": "Low",
+        "windRange": "45–80 km/h",
+        "surgeEstimate": "Negligible",
+        "description": "Residual wind gusts and moderate rainfall over elevated inland districts."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [83.60, 19.00],
+          [84.50, 19.25],
+          [85.70, 21.25],
+          [86.95, 21.95],
+          [86.30, 22.35],
+          [85.15, 21.95],
+          [84.20, 21.15],
+          [83.55, 19.80],
+          [83.60, 19.00]
+        ]]
+      }
+    }
+  ]
+}

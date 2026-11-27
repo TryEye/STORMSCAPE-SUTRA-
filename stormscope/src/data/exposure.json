@@ -1,0 +1,383 @@
+{
+  "cycloneId": "fani",
+  "summary": {
+    "totalExposedBuildings": 300100,
+    "totalExposedRoads": 7373,
+    "totalExposedSettlements": 1536,
+    "estimatedHazardArea": 36420,
+    "highestExposureDistrict": "Puri",
+    "averageExposureIndex": 40.7,
+    "coastalAverageIndex": 72.2,
+    "inlandAverageIndex": 32.8
+  },
+  "districtExposure": [
+    {
+      "districtId": "puri",
+      "districtName": "Puri",
+      "exposureIndex": 92,
+      "hazardCategory": "Extreme",
+      "coastal": true,
+      "buildings": 42500,
+      "roads": 820,
+      "settlements": 185
+    },
+    {
+      "districtId": "jagatsinghpur",
+      "districtName": "Jagatsinghpur",
+      "exposureIndex": 85,
+      "hazardCategory": "High",
+      "coastal": true,
+      "buildings": 28900,
+      "roads": 440,
+      "settlements": 112
+    },
+    {
+      "districtId": "khordha",
+      "districtName": "Khordha",
+      "exposureIndex": 78,
+      "hazardCategory": "High",
+      "coastal": false,
+      "buildings": 31200,
+      "roads": 640,
+      "settlements": 142
+    },
+    {
+      "districtId": "kendrapara",
+      "districtName": "Kendrapara",
+      "exposureIndex": 76,
+      "hazardCategory": "High",
+      "coastal": true,
+      "buildings": 22100,
+      "roads": 380,
+      "settlements": 98
+    },
+    {
+      "districtId": "cuttack",
+      "districtName": "Cuttack",
+      "exposureIndex": 71,
+      "hazardCategory": "High",
+      "coastal": false,
+      "buildings": 24800,
+      "roads": 580,
+      "settlements": 128
+    },
+    {
+      "districtId": "bhadrak",
+      "districtName": "Bhadrak",
+      "exposureIndex": 68,
+      "hazardCategory": "Moderate",
+      "coastal": true,
+      "buildings": 18200,
+      "roads": 350,
+      "settlements": 84
+    },
+    {
+      "districtId": "jajpur",
+      "districtName": "Jajpur",
+      "exposureIndex": 62,
+      "hazardCategory": "Moderate",
+      "coastal": false,
+      "buildings": 16400,
+      "roads": 320,
+      "settlements": 76
+    },
+    {
+      "districtId": "balasore",
+      "districtName": "Balasore",
+      "exposureIndex": 58,
+      "hazardCategory": "Moderate",
+      "coastal": true,
+      "buildings": 14600,
+      "roads": 410,
+      "settlements": 72
+    },
+    {
+      "districtId": "ganjam",
+      "districtName": "Ganjam",
+      "exposureIndex": 54,
+      "hazardCategory": "Moderate",
+      "coastal": true,
+      "buildings": 13400,
+      "roads": 370,
+      "settlements": 68
+    },
+    {
+      "districtId": "nayagarh",
+      "districtName": "Nayagarh",
+      "exposureIndex": 51,
+      "hazardCategory": "Moderate",
+      "coastal": false,
+      "buildings": 9800,
+      "roads": 240,
+      "settlements": 52
+    },
+    {
+      "districtId": "dhenkanal",
+      "districtName": "Dhenkanal",
+      "exposureIndex": 46,
+      "hazardCategory": "Moderate",
+      "coastal": false,
+      "buildings": 8900,
+      "roads": 230,
+      "settlements": 48
+    },
+    {
+      "districtId": "gajapati",
+      "districtName": "Gajapati",
+      "exposureIndex": 44,
+      "hazardCategory": "Moderate",
+      "coastal": false,
+      "buildings": 6100,
+      "roads": 175,
+      "settlements": 39
+    },
+    {
+      "districtId": "mayurbhanj",
+      "districtName": "Mayurbhanj",
+      "exposureIndex": 39,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 7200,
+      "roads": 210,
+      "settlements": 44
+    },
+    {
+      "districtId": "kendujhar",
+      "districtName": "Kendujhar",
+      "exposureIndex": 34,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 5400,
+      "roads": 165,
+      "settlements": 32
+    },
+    {
+      "districtId": "angul",
+      "districtName": "Angul",
+      "exposureIndex": 33,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 4900,
+      "roads": 160,
+      "settlements": 29
+    },
+    {
+      "districtId": "kandhamal",
+      "districtName": "Kandhamal",
+      "exposureIndex": 31,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 3800,
+      "roads": 140,
+      "settlements": 26
+    },
+    {
+      "districtId": "rayagada",
+      "districtName": "Rayagada",
+      "exposureIndex": 30,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 4100,
+      "roads": 150,
+      "settlements": 28
+    },
+    {
+      "districtId": "boudh",
+      "districtName": "Boudh",
+      "exposureIndex": 28,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2900,
+      "roads": 110,
+      "settlements": 21
+    },
+    {
+      "districtId": "koraput",
+      "districtName": "Koraput",
+      "exposureIndex": 27,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 4200,
+      "roads": 160,
+      "settlements": 31
+    },
+    {
+      "districtId": "deogarh",
+      "districtName": "Deogarh",
+      "exposureIndex": 24,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2100,
+      "roads": 95,
+      "settlements": 16
+    },
+    {
+      "districtId": "subarnapur",
+      "districtName": "Subarnapur",
+      "exposureIndex": 23,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2600,
+      "roads": 105,
+      "settlements": 19
+    },
+    {
+      "districtId": "sambalpur",
+      "districtName": "Sambalpur",
+      "exposureIndex": 22,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 3400,
+      "roads": 145,
+      "settlements": 24
+    },
+    {
+      "districtId": "kalahandi",
+      "districtName": "Kalahandi",
+      "exposureIndex": 21,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 3600,
+      "roads": 140,
+      "settlements": 25
+    },
+    {
+      "districtId": "balangir",
+      "districtName": "Balangir",
+      "exposureIndex": 20,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 3500,
+      "roads": 135,
+      "settlements": 24
+    },
+    {
+      "districtId": "malkangiri",
+      "districtName": "Malkangiri",
+      "exposureIndex": 20,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2300,
+      "roads": 115,
+      "settlements": 18
+    },
+    {
+      "districtId": "nabarangpur",
+      "districtName": "Nabarangpur",
+      "exposureIndex": 18,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2500,
+      "roads": 110,
+      "settlements": 19
+    },
+    {
+      "districtId": "sundargarh",
+      "districtName": "Sundargarh",
+      "exposureIndex": 18,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 3900,
+      "roads": 170,
+      "settlements": 27
+    },
+    {
+      "districtId": "jharsuguda",
+      "districtName": "Jharsuguda",
+      "exposureIndex": 17,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2200,
+      "roads": 98,
+      "settlements": 15
+    },
+    {
+      "districtId": "bargarh",
+      "districtName": "Bargarh",
+      "exposureIndex": 16,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 2700,
+      "roads": 120,
+      "settlements": 20
+    },
+    {
+      "districtId": "nuapada",
+      "districtName": "Nuapada",
+      "exposureIndex": 15,
+      "hazardCategory": "Low",
+      "coastal": false,
+      "buildings": 1900,
+      "roads": 90,
+      "settlements": 14
+    }
+  ],
+  "assetCategoryBreakdown": [
+    {
+      "category": "Residential",
+      "exposedCount": 196400,
+      "share": 64,
+      "hazardFocus": "High"
+    },
+    {
+      "category": "Commercial",
+      "exposedCount": 42800,
+      "share": 14,
+      "hazardFocus": "High"
+    },
+    {
+      "category": "Schools & Shelters",
+      "exposedCount": 21500,
+      "share": 7,
+      "hazardFocus": "Extreme"
+    },
+    {
+      "category": "Industrial & Ports",
+      "exposedCount": 19800,
+      "share": 6,
+      "hazardFocus": "High"
+    },
+    {
+      "category": "Healthcare",
+      "exposedCount": 14900,
+      "share": 5,
+      "hazardFocus": "Extreme"
+    },
+    {
+      "category": "Government / Civic",
+      "exposedCount": 12200,
+      "share": 4,
+      "hazardFocus": "Moderate"
+    }
+  ],
+  "insights": [
+    {
+      "id": "highest-exposure",
+      "title": "Highest Exposure District",
+      "description": "Puri district recorded the highest exposure index (92) due to direct Cyclone Fani landfall and dense low-lying coastal settlements.",
+      "icon": "AlertTriangle",
+      "category": "exposure"
+    },
+    {
+      "id": "coastal-concentration",
+      "title": "Coastal Infrastructure Concentration",
+      "description": "Coastal districts average 72.2/100 exposure versus 32.8/100 inland, with 6 coastal districts accounting for over 45% of exposed structures.",
+      "icon": "Building2",
+      "category": "infrastructure"
+    },
+    {
+      "id": "terrain-vulnerability",
+      "title": "Delta & Low-Elevation Vulnerability",
+      "description": "Low-lying Mahanadi delta districts (Jagatsinghpur, Kendrapara, Puri) show heightened flood-surge susceptibility compared to inland plateaus.",
+      "icon": "Mountain",
+      "category": "terrain"
+    },
+    {
+      "id": "planning-recommendation",
+      "title": "Planning Consideration",
+      "description": "Critical facilities (schools, hospitals) in Extreme/High zones require site-level elevation verification and storm-surge setback planning.",
+      "icon": "Compass",
+      "category": "recommendation"
+    }
+  ]
+}

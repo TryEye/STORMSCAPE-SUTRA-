@@ -20,15 +20,13 @@ Newest information should appear first.
 
 Current Phase:
 
-Phase 1 — Presentation MVP
+Phase 4 — Assessment Engine
 
 Status:
 
-Documentation and planning phase.
+Phases 1–4 implemented inside `/stormscope` (Presentation MVP, Geospatial Foundation, Data Integration, and Assessment Engine).
 
-The project architecture, visual direction, page structure, and development strategy have been defined.
-
-Implementation has not yet begun.
+All routes (`/`, `/dashboard`, `/explorer`, `/assessment`, `/pipeline`, `/methodology`, `/about`) operate with repeatable multi-factor exposure scoring (`src/lib/engine.ts`), scenario-driven district choropleth & chart updates, multi-cyclone site sensitivity analysis, Scenario & District Comparison matrices, and JSON assessment summary export.
 
 ---
 
@@ -223,6 +221,50 @@ The architecture should remain compatible with future backend integration.
 ---
 
 # Session Log
+
+### Service-Adapter Readiness, Track Playback & Visual Polish
+
+Implemented:
+
+- Added future-compatible Service Adapter Layer (`src/services/contracts.ts`, `src/services/localAdapters.ts`) providing async interfaces and local MVP adapters for `HazardEngine`, `ExposureEngine`, `AssessmentEngine`, `ValidationEngine`, and `ReportingEngine` without introducing Docker or backend dependencies
+- Added interactive node-by-node Cyclone Track Playback (`Play / Pause / Step / Scrubber` + moving storm-eye marker) to `/explorer`
+- Added Markdown Exposure Brief export on `/dashboard` and `/assessment` via `LocalReportingService`
+- Added collapsible 5-Minute Presenter Demo Guide (`DemoGuide.tsx`) in shared layout
+
+### Phase 4 Assessment Engine Implementation
+
+Implemented:
+
+- Built repeatable multi-factor exposure scoring engine (`src/lib/engine.ts`) computing track-proximity wind attenuation, surge/flood susceptibility, terrain vulnerability, and composite district scores dynamically per cyclone scenario
+- Wired dynamic scenario-based district GeoJSON updates and KPI/chart recalculation on `/dashboard`
+- Added weighted factor decomposition, multi-cyclone site sensitivity table, exportable JSON summary, and a dedicated Scenario & District Comparison module (`ScenarioComparison.tsx`) on `/assessment`
+
+### Phase 3 Data Integration & MapLibre Worker Fix
+
+Implemented & Resolved:
+
+- Resolved MapLibre GL v6 WebWorker 404 in Next.js 16 Turbopack by serving `public/maplibre-gl-worker.mjs` and calling `maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs")` in `MapView.tsx`
+- Added multi-cyclone IMD archives (`Fani 2019`, `Phailin 2013`, `Dana 2024`), SRTM DEM elevation bands (`dem-elevation.geojson`), and GPM/IMD rainfall swaths (`rainfall-bands.geojson`)
+- Built Phase 3 Data Integration & Validation Hub (`/pipeline`) with schema/CRS/bounds validator (`src/lib/pipeline.ts`), sample ingestion presets (IMD Hudhud CSV, OSM Shelters GeoJSON, Sentinel-1 SAR Flood GeoJSON), and live `DataRegistryContext` wired into `/dashboard` and `/explorer`
+
+### Phase 2 Geospatial Foundation Implementation
+
+Implemented:
+
+- Real simplified Odisha state boundary (`odisha.geojson`), Eastern India coastline context (`bay-of-bengal-land.geojson`), and all 30 Odisha districts (`districts.geojson` + `districts.json`) with bounding boxes, centroids, coastal flags, and elevation tiers
+- Coastal storm surge & flood susceptibility polygons (`flood-zones.geojson`) and expanded Odisha critical infrastructure (`infrastructure.geojson`: NH-16/316/53/55, ports, hospitals, cyclone shelters, inland hubs)
+- Upgraded `MapView` and `src/maps/layers.ts` with metric scale bar, live coordinate cursor readout, district hover highlight/inspection, `fitBounds` zooming, and layer opacity controls
+- Added Coastal vs. Inland comparison & Asset Category exposure breakdown charts on `/dashboard`
+- Added client-side point-in-polygon spatial intersection (`src/lib/spatial.ts`) in `/assessment` for real district, flood-zone, and hazard-corridor evaluation
+
+### Phase 1 Presentation MVP Implementation
+
+Implemented:
+
+- Next.js App Router project in `/stormscope` with Tailwind CSS v4 design system tokens (`#07111D`, `#0F1E33`, `#38BDF8`, `#2DD4BF`, Space Grotesk + Inter)
+- Local data layer (`cyclones.json`, `districts.json`, `exposure.json`, `assessment.json`, `statistics.json`, `odisha.geojson`, `districts.geojson`, `hazard-zones.geojson`, `infrastructure.geojson`, `bay-of-bengal-land.geojson`)
+- Self-contained offline-capable MapLibre cartographic style (`src/maps/cartoStyle.ts`) and shared layer builders (`src/maps/layers.ts`)
+- Complete pages in priority order: Shared Layout, Landing Page (`/`), Dashboard (`/dashboard`), Explorer (`/explorer`), Assessment (`/assessment`), Methodology (`/methodology`), and About (`/about`)
 
 ### Initial Planning
 

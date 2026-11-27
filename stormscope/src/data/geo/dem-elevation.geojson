@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dem-coastal-low",
+        "name": "SRTM Coastal Lowland (<15m MSL)",
+        "elevationRange": "0–15 m",
+        "terrainClass": "Coastal Alluvial & Deltaic Plain",
+        "surgeExposure": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.60, 19.05],
+          [85.20, 19.45],
+          [86.10, 19.82],
+          [86.95, 20.55],
+          [87.45, 21.55],
+          [86.85, 21.75],
+          [86.15, 21.05],
+          [85.55, 20.38],
+          [84.95, 19.72],
+          [84.42, 19.30],
+          [84.60, 19.05]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dem-central-basin",
+        "name": "Central Mahanadi & Transition Belt (15–150m MSL)",
+        "elevationRange": "15–150 m",
+        "terrainClass": "Inland Transition & River Valley",
+        "surgeExposure": "Moderate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.20, 19.40],
+          [85.55, 20.38],
+          [86.85, 21.75],
+          [86.10, 22.15],
+          [84.85, 21.65],
+          [83.75, 21.35],
+          [83.60, 20.45],
+          [84.20, 19.40]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dem-highland-plateau",
+        "name": "Eastern Ghats & Western Plateau (>150m MSL)",
+        "elevationRange": "150–1,100 m",
+        "terrainClass": "Elevated Highland Plateau",
+        "surgeExposure": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [81.45, 18.00],
+          [83.55, 18.85],
+          [84.20, 19.40],
+          [83.60, 20.45],
+          [83.75, 21.35],
+          [84.85, 21.65],
+          [84.70, 22.35],
+          [82.45, 21.65],
+          [81.55, 19.95],
+          [81.45, 18.00]
+        ]]
+      }
+    }
+  ]
+}

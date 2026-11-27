@@ -1,0 +1,722 @@
+[
+  {
+    "id": "puri",
+    "name": "Puri",
+    "exposureIndex": 92,
+    "hazardCategory": "Extreme",
+    "coastal": true,
+    "elevationTier": "Low Coastal Plain",
+    "population": 1698730,
+    "area": 3479,
+    "coastalLength": 155,
+    "potentiallyExposedBuildings": 42500,
+    "potentiallyExposedRoads": 820,
+    "potentiallyExposedSettlements": 185,
+    "centroid": [
+      85.706,
+      19.9367
+    ],
+    "bbox": [
+      85.0869,
+      19.4622,
+      86.3725,
+      20.1884
+    ]
+  },
+  {
+    "id": "jagatsinghpur",
+    "name": "Jagatsinghpur",
+    "exposureIndex": 85,
+    "hazardCategory": "High",
+    "coastal": true,
+    "elevationTier": "Low Coastal Delta",
+    "population": 1136604,
+    "area": 1668,
+    "coastalLength": 65,
+    "potentiallyExposedBuildings": 28900,
+    "potentiallyExposedRoads": 440,
+    "potentiallyExposedSettlements": 112,
+    "centroid": [
+      86.3612,
+      20.2085
+    ],
+    "bbox": [
+      86.0095,
+      19.9761,
+      86.7189,
+      20.3942
+    ]
+  },
+  {
+    "id": "khordha",
+    "name": "Khordha",
+    "exposureIndex": 78,
+    "hazardCategory": "High",
+    "coastal": false,
+    "elevationTier": "Coastal Transition Plain",
+    "population": 2246341,
+    "area": 2813,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 31200,
+    "potentiallyExposedRoads": 640,
+    "potentiallyExposedSettlements": 142,
+    "centroid": [
+      85.561,
+      20.0992
+    ],
+    "bbox": [
+      84.9296,
+      19.6674,
+      86.077,
+      20.4268
+    ]
+  },
+  {
+    "id": "kendrapara",
+    "name": "Kendrapara",
+    "exposureIndex": 76,
+    "hazardCategory": "High",
+    "coastal": true,
+    "elevationTier": "Low Coastal Delta",
+    "population": 1439891,
+    "area": 2644,
+    "coastalLength": 68,
+    "potentiallyExposedBuildings": 22100,
+    "potentiallyExposedRoads": 380,
+    "potentiallyExposedSettlements": 98,
+    "centroid": [
+      86.5574,
+      20.5459
+    ],
+    "bbox": [
+      86.2459,
+      20.2939,
+      87.0921,
+      20.7924
+    ]
+  },
+  {
+    "id": "cuttack",
+    "name": "Cuttack",
+    "exposureIndex": 71,
+    "hazardCategory": "High",
+    "coastal": false,
+    "elevationTier": "Mahanadi Delta Plain",
+    "population": 2624470,
+    "area": 3932,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 24800,
+    "potentiallyExposedRoads": 580,
+    "potentiallyExposedSettlements": 128,
+    "centroid": [
+      85.799,
+      20.4081
+    ],
+    "bbox": [
+      84.845,
+      20.0332,
+      86.2785,
+      20.693
+    ]
+  },
+  {
+    "id": "bhadrak",
+    "name": "Bhadrak",
+    "exposureIndex": 68,
+    "hazardCategory": "Moderate",
+    "coastal": true,
+    "elevationTier": "Low Coastal Plain",
+    "population": 1506522,
+    "area": 2505,
+    "coastalLength": 48,
+    "potentiallyExposedBuildings": 18200,
+    "potentiallyExposedRoads": 350,
+    "potentiallyExposedSettlements": 84,
+    "centroid": [
+      86.5604,
+      21.0103
+    ],
+    "bbox": [
+      86.2684,
+      20.723,
+      87.0186,
+      21.2329
+    ]
+  },
+  {
+    "id": "jajpur",
+    "name": "Jajpur",
+    "exposureIndex": 62,
+    "hazardCategory": "Moderate",
+    "coastal": false,
+    "elevationTier": "Alluvial Plain",
+    "population": 1826275,
+    "area": 2899,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 16400,
+    "potentiallyExposedRoads": 320,
+    "potentiallyExposedSettlements": 76,
+    "centroid": [
+      86.1465,
+      20.8398
+    ],
+    "bbox": [
+      85.6811,
+      20.572,
+      86.6208,
+      21.1623
+    ]
+  },
+  {
+    "id": "balasore",
+    "name": "Balasore",
+    "exposureIndex": 58,
+    "hazardCategory": "Moderate",
+    "coastal": true,
+    "elevationTier": "Northern Coastal Plain",
+    "population": 2317419,
+    "area": 3806,
+    "coastalLength": 81,
+    "potentiallyExposedBuildings": 14600,
+    "potentiallyExposedRoads": 410,
+    "potentiallyExposedSettlements": 72,
+    "centroid": [
+      86.9649,
+      21.5523
+    ],
+    "bbox": [
+      86.3522,
+      21.0549,
+      87.4821,
+      21.9734
+    ]
+  },
+  {
+    "id": "ganjam",
+    "name": "Ganjam",
+    "exposureIndex": 54,
+    "hazardCategory": "Moderate",
+    "coastal": true,
+    "elevationTier": "Southern Coastal Plain",
+    "population": 3520151,
+    "area": 8206,
+    "coastalLength": 60,
+    "potentiallyExposedBuildings": 13400,
+    "potentiallyExposedRoads": 370,
+    "potentiallyExposedSettlements": 68,
+    "centroid": [
+      84.5794,
+      19.5534
+    ],
+    "bbox": [
+      84.1257,
+      18.975,
+      85.1778,
+      20.2749
+    ]
+  },
+  {
+    "id": "nayagarh",
+    "name": "Nayagarh",
+    "exposureIndex": 51,
+    "hazardCategory": "Moderate",
+    "coastal": false,
+    "elevationTier": "Inland Foothill Basin",
+    "population": 962789,
+    "area": 3890,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 9800,
+    "potentiallyExposedRoads": 240,
+    "potentiallyExposedSettlements": 52,
+    "centroid": [
+      85.0171,
+      20.2106
+    ],
+    "bbox": [
+      84.4786,
+      19.8896,
+      85.451,
+      20.5752
+    ]
+  },
+  {
+    "id": "dhenkanal",
+    "name": "Dhenkanal",
+    "exposureIndex": 46,
+    "hazardCategory": "Moderate",
+    "coastal": false,
+    "elevationTier": "Central Upland",
+    "population": 1192811,
+    "area": 4452,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 8900,
+    "potentiallyExposedRoads": 230,
+    "potentiallyExposedSettlements": 48,
+    "centroid": [
+      85.499,
+      20.8271
+    ],
+    "bbox": [
+      85.1087,
+      20.4786,
+      86.0282,
+      21.1799
+    ]
+  },
+  {
+    "id": "gajapati",
+    "name": "Gajapati",
+    "exposureIndex": 44,
+    "hazardCategory": "Moderate",
+    "coastal": false,
+    "elevationTier": "Eastern Ghats Ridge",
+    "population": 577817,
+    "area": 4325,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 6100,
+    "potentiallyExposedRoads": 175,
+    "potentiallyExposedSettlements": 39,
+    "centroid": [
+      84.1661,
+      19.1278
+    ],
+    "bbox": [
+      83.7883,
+      18.7446,
+      84.4406,
+      19.6264
+    ]
+  },
+  {
+    "id": "mayurbhanj",
+    "name": "Mayurbhanj",
+    "exposureIndex": 39,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Northern Plateau",
+    "population": 2513895,
+    "area": 10418,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 7200,
+    "potentiallyExposedRoads": 210,
+    "potentiallyExposedSettlements": 44,
+    "centroid": [
+      86.4314,
+      21.8872
+    ],
+    "bbox": [
+      85.658,
+      21.2604,
+      87.1798,
+      22.5636
+    ]
+  },
+  {
+    "id": "kendujhar",
+    "name": "Kendujhar",
+    "exposureIndex": 34,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Mineral Plateau",
+    "population": 1801733,
+    "area": 8303,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 5400,
+    "potentiallyExposedRoads": 165,
+    "potentiallyExposedSettlements": 32,
+    "centroid": [
+      85.7493,
+      21.4836
+    ],
+    "bbox": [
+      85.1807,
+      21.0081,
+      86.37,
+      22.1561
+    ]
+  },
+  {
+    "id": "angul",
+    "name": "Angul",
+    "exposureIndex": 33,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Central Tableland",
+    "population": 1273821,
+    "area": 6375,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 4900,
+    "potentiallyExposedRoads": 160,
+    "potentiallyExposedSettlements": 29,
+    "centroid": [
+      85.0079,
+      21.1369
+    ],
+    "bbox": [
+      84.2603,
+      20.5221,
+      85.3889,
+      21.6728
+    ]
+  },
+  {
+    "id": "kandhamal",
+    "name": "Kandhamal",
+    "exposureIndex": 31,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Eastern Ghats Highland",
+    "population": 733110,
+    "area": 8021,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 3800,
+    "potentiallyExposedRoads": 140,
+    "potentiallyExposedSettlements": 26,
+    "centroid": [
+      84.0828,
+      20.1094
+    ],
+    "bbox": [
+      83.4887,
+      19.5642,
+      84.5803,
+      20.689
+    ]
+  },
+  {
+    "id": "rayagada",
+    "name": "Rayagada",
+    "exposureIndex": 30,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Southern Highland",
+    "population": 967911,
+    "area": 7073,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 4100,
+    "potentiallyExposedRoads": 150,
+    "potentiallyExposedSettlements": 28,
+    "centroid": [
+      83.4713,
+      19.2928
+    ],
+    "bbox": [
+      82.871,
+      18.9013,
+      84.0248,
+      19.9665
+    ]
+  },
+  {
+    "id": "boudh",
+    "name": "Boudh",
+    "exposureIndex": 28,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Mahanadi Valley",
+    "population": 441162,
+    "area": 3098,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2900,
+    "potentiallyExposedRoads": 110,
+    "potentiallyExposedSettlements": 21,
+    "centroid": [
+      84.1713,
+      20.5812
+    ],
+    "bbox": [
+      83.565,
+      20.3805,
+      84.7897,
+      20.8967
+    ]
+  },
+  {
+    "id": "koraput",
+    "name": "Koraput",
+    "exposureIndex": 27,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Highland Plateau",
+    "population": 1379647,
+    "area": 8807,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 4200,
+    "potentiallyExposedRoads": 160,
+    "potentiallyExposedSettlements": 31,
+    "centroid": [
+      82.7342,
+      18.8353
+    ],
+    "bbox": [
+      82.0847,
+      18.2287,
+      83.4107,
+      19.2335
+    ]
+  },
+  {
+    "id": "deogarh",
+    "name": "Deogarh",
+    "exposureIndex": 24,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Inland Forested Hills",
+    "population": 312520,
+    "area": 2940,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2100,
+    "potentiallyExposedRoads": 95,
+    "potentiallyExposedSettlements": 16,
+    "centroid": [
+      84.7918,
+      21.4451
+    ],
+    "bbox": [
+      84.4728,
+      21.1286,
+      85.2094,
+      21.7384
+    ]
+  },
+  {
+    "id": "subarnapur",
+    "name": "Subarnapur",
+    "exposureIndex": 23,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Mahanadi Valley",
+    "population": 610183,
+    "area": 2337,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2600,
+    "potentiallyExposedRoads": 105,
+    "potentiallyExposedSettlements": 19,
+    "centroid": [
+      83.7867,
+      20.9136
+    ],
+    "bbox": [
+      83.4435,
+      20.5231,
+      84.276,
+      21.174
+    ]
+  },
+  {
+    "id": "sambalpur",
+    "name": "Sambalpur",
+    "exposureIndex": 22,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Inland Elevated Plateau",
+    "population": 1041099,
+    "area": 6624,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 3400,
+    "potentiallyExposedRoads": 145,
+    "potentiallyExposedSettlements": 24,
+    "centroid": [
+      84.3759,
+      21.5472
+    ],
+    "bbox": [
+      83.7931,
+      20.9189,
+      84.766,
+      22.1857
+    ]
+  },
+  {
+    "id": "kalahandi",
+    "name": "Kalahandi",
+    "exposureIndex": 21,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Western Plateau",
+    "population": 1576869,
+    "area": 7920,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 3600,
+    "potentiallyExposedRoads": 140,
+    "potentiallyExposedSettlements": 25,
+    "centroid": [
+      83.0917,
+      19.7788
+    ],
+    "bbox": [
+      82.5204,
+      19.1771,
+      83.7835,
+      20.4489
+    ]
+  },
+  {
+    "id": "balangir",
+    "name": "Balangir",
+    "exposureIndex": 20,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Western Upland",
+    "population": 1648997,
+    "area": 6575,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 3500,
+    "potentiallyExposedRoads": 135,
+    "potentiallyExposedSettlements": 24,
+    "centroid": [
+      83.1671,
+      20.5952
+    ],
+    "bbox": [
+      82.6793,
+      20.1427,
+      83.6706,
+      21.0657
+    ]
+  },
+  {
+    "id": "malkangiri",
+    "name": "Malkangiri",
+    "exposureIndex": 20,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Southern Basin",
+    "population": 613192,
+    "area": 5791,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2300,
+    "potentiallyExposedRoads": 115,
+    "potentiallyExposedSettlements": 18,
+    "centroid": [
+      82.0182,
+      18.2865
+    ],
+    "bbox": [
+      81.3844,
+      17.8029,
+      82.4409,
+      18.7327
+    ]
+  },
+  {
+    "id": "nabarangpur",
+    "name": "Nabarangpur",
+    "exposureIndex": 18,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Western Highland",
+    "population": 1220946,
+    "area": 5294,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2500,
+    "potentiallyExposedRoads": 110,
+    "potentiallyExposedSettlements": 19,
+    "centroid": [
+      82.4268,
+      19.5037
+    ],
+    "bbox": [
+      81.8373,
+      19.141,
+      82.8488,
+      20.1023
+    ]
+  },
+  {
+    "id": "sundargarh",
+    "name": "Sundargarh",
+    "exposureIndex": 18,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Northwestern Plateau",
+    "population": 2093437,
+    "area": 9712,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 3900,
+    "potentiallyExposedRoads": 170,
+    "potentiallyExposedSettlements": 27,
+    "centroid": [
+      84.5063,
+      22.0343
+    ],
+    "bbox": [
+      83.5324,
+      21.5846,
+      85.3711,
+      22.5288
+    ]
+  },
+  {
+    "id": "jharsuguda",
+    "name": "Jharsuguda",
+    "exposureIndex": 17,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Industrial Upland",
+    "population": 579505,
+    "area": 2114,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2200,
+    "potentiallyExposedRoads": 98,
+    "potentiallyExposedSettlements": 15,
+    "centroid": [
+      83.9106,
+      21.8302
+    ],
+    "bbox": [
+      83.4197,
+      21.563,
+      84.3865,
+      22.0341
+    ]
+  },
+  {
+    "id": "bargarh",
+    "name": "Bargarh",
+    "exposureIndex": 16,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Western Alluvial Plain",
+    "population": 1481255,
+    "area": 5837,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 2700,
+    "potentiallyExposedRoads": 120,
+    "potentiallyExposedSettlements": 20,
+    "centroid": [
+      83.2855,
+      21.1777
+    ],
+    "bbox": [
+      82.6318,
+      20.7216,
+      83.9072,
+      21.7402
+    ]
+  },
+  {
+    "id": "nuapada",
+    "name": "Nuapada",
+    "exposureIndex": 15,
+    "hazardCategory": "Low",
+    "coastal": false,
+    "elevationTier": "Western Plateau",
+    "population": 610382,
+    "area": 3852,
+    "coastalLength": 0,
+    "potentiallyExposedBuildings": 1900,
+    "potentiallyExposedRoads": 90,
+    "potentiallyExposedSettlements": 14,
+    "centroid": [
+      82.5994,
+      20.4635
+    ],
+    "bbox": [
+      82.324,
+      19.9856,
+      82.8553,
+      21.087
+    ]
+  }
+]

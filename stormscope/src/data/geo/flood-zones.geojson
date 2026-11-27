@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fz-chilika-puri",
+        "name": "Chilika Lagoon & Puri Coastal Surge Zone",
+        "floodLevel": "High",
+        "elevationBand": "0–5m MSL",
+        "description": "Low-lying barrier coast and Chilika margin subject to storm surge inundation and tidal backwater."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [85.15, 19.52],
+          [85.55, 19.62],
+          [85.98, 19.78],
+          [86.18, 19.88],
+          [86.05, 20.05],
+          [85.72, 19.98],
+          [85.38, 19.82],
+          [85.10, 19.70],
+          [85.15, 19.52]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fz-mahanadi-delta",
+        "name": "Mahanadi–Brahmani Deltaic Inundation Zone",
+        "floodLevel": "High",
+        "elevationBand": "0–8m MSL",
+        "description": "Estuarine floodplain across Jagatsinghpur, Kendrapara, and eastern Cuttack prone to cyclone-induced riverine and tidal flooding."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [86.12, 20.02],
+          [86.58, 20.22],
+          [86.96, 20.58],
+          [86.98, 20.82],
+          [86.65, 20.88],
+          [86.28, 20.72],
+          [86.02, 20.42],
+          [86.12, 20.02]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fz-bhadrak-balasore",
+        "name": "Baitarani–Subarnarekha Coastal Flood Belt",
+        "floodLevel": "Moderate",
+        "elevationBand": "2–10m MSL",
+        "description": "Northern coastal belt across Bhadrak and Balasore exposed to heavy cyclonic rainfall runoff and moderate surge."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [86.68, 20.84],
+          [87.02, 21.12],
+          [87.38, 21.48],
+          [87.48, 21.68],
+          [87.12, 21.76],
+          [86.78, 21.46],
+          [86.54, 21.10],
+          [86.68, 20.84]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fz-ganjam-coast",
+        "name": "Rushikulya–Ganjam Littoral Zone",
+        "floodLevel": "Moderate",
+        "elevationBand": "2–12m MSL",
+        "description": "Southern Odisha littoral corridor near Gopalpur and Rushikulya estuary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.72, 19.12],
+          [85.08, 19.34],
+          [85.18, 19.50],
+          [84.95, 19.58],
+          [84.64, 19.34],
+          [84.72, 19.12]
+        ]]
+      }
+    }
+  ]
+}

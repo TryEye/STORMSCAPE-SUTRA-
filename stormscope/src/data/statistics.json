@@ -1,0 +1,46 @@
+{
+  "cycloneFani": {
+    "windSpeedTimeline": [
+      { "date": "Apr 26", "speed": 45 },
+      { "date": "Apr 27", "speed": 55 },
+      { "date": "Apr 28", "speed": 75 },
+      { "date": "Apr 29", "speed": 100 },
+      { "date": "Apr 30", "speed": 140 },
+      { "date": "May 01", "speed": 185 },
+      { "date": "May 02", "speed": 215 },
+      { "date": "May 03", "speed": 175 },
+      { "date": "May 04", "speed": 80 },
+      { "date": "May 05", "speed": 35 }
+    ],
+    "pressureTimeline": [
+      { "date": "Apr 26", "pressure": 1004 },
+      { "date": "Apr 27", "pressure": 1000 },
+      { "date": "Apr 28", "pressure": 994 },
+      { "date": "Apr 29", "pressure": 982 },
+      { "date": "Apr 30", "pressure": 962 },
+      { "date": "May 01", "pressure": 940 },
+      { "date": "May 02", "pressure": 932 },
+      { "date": "May 03", "pressure": 944 },
+      { "date": "May 04", "pressure": 984 },
+      { "date": "May 05", "pressure": 1002 }
+    ],
+    "districtExposureChart": [
+      { "district": "Puri", "exposure": 92 },
+      { "district": "Jagatsinghpur", "exposure": 85 },
+      { "district": "Khordha", "exposure": 78 },
+      { "district": "Kendrapara", "exposure": 76 },
+      { "district": "Cuttack", "exposure": 71 },
+      { "district": "Bhadrak", "exposure": 68 },
+      { "district": "Jajpur", "exposure": 62 },
+      { "district": "Balasore", "exposure": 58 },
+      { "district": "Ganjam", "exposure": 52 },
+      { "district": "Mayurbhanj", "exposure": 35 }
+    ],
+    "impactSummary": {
+      "peopleAffected": 16500000,
+      "buildingsDamaged": 498000,
+      "cropAreaAffected": 1780,
+      "economicLoss": 2450
+    }
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "fani",
+    "name": "Cyclone Fani",
+    "year": 2019,
+    "category": "Extremely Severe Cyclonic Storm",
+    "landfallRegion": "Puri, Odisha",
+    "landfallDate": "2019-05-03",
+    "maxWindSpeed": 215,
+    "minPressure": 932,
+    "affectedDistricts": ["puri", "khordha", "cuttack", "jagatsinghpur", "kendrapara", "jajpur", "bhadrak", "balasore", "mayurbhanj", "ganjam"],
+    "description": "Cyclone Fani was the strongest tropical cyclone to strike Odisha since the 1999 Super Cyclone. It made landfall near Puri on 3 May 2019 as an Extremely Severe Cyclonic Storm with peak sustained winds of 215 km/h, impacting coastal settlements, power grids, and road corridors across central and northern coastal Odisha.",
+    "timeline": [
+      { "date": "2019-04-26", "event": "Formation", "description": "Depression formed over the east Equatorial Indian Ocean and adjoining Southeast Bay of Bengal." },
+      { "date": "2019-04-27", "event": "Deep Depression", "description": "Intensified into a deep depression and began tracking northwestward." },
+      { "date": "2019-04-28", "event": "Cyclonic Storm", "description": "Intensified into Cyclonic Storm Fani." },
+      { "date": "2019-04-29", "event": "Severe Cyclonic Storm", "description": "Rapid intensification began over warm Bay of Bengal waters." },
+      { "date": "2019-04-30", "event": "Very Severe", "description": "Upgraded to Very Severe Cyclonic Storm with winds exceeding 140 km/h." },
+      { "date": "2019-05-01", "event": "Extremely Severe", "description": "Reached peak intensity with 215 km/h sustained winds and 932 hPa central pressure." },
+      { "date": "2019-05-03", "event": "Landfall", "description": "Made landfall near Puri, Odisha at 08:00 IST with winds around 175 km/h." },
+      { "date": "2019-05-04", "event": "Weakening", "description": "Weakened while crossing coastal Odisha into West Bengal." },
+      { "date": "2019-05-05", "event": "Dissipation", "description": "Dissipated over northeastern subcontinent." }
+    ],
+    "track": [
+      { "lat": 8.0, "lng": 87.0, "timestamp": "2019-04-26T00:00:00Z", "windSpeed": 45, "pressure": 1004, "category": "Depression" },
+      { "lat": 9.5, "lng": 86.5, "timestamp": "2019-04-27T00:00:00Z", "windSpeed": 55, "pressure": 1000, "category": "Deep Depression" },
+      { "lat": 11.0, "lng": 86.0, "timestamp": "2019-04-28T00:00:00Z", "windSpeed": 75, "pressure": 994, "category": "Cyclonic Storm" },
+      { "lat": 12.5, "lng": 85.0, "timestamp": "2019-04-29T00:00:00Z", "windSpeed": 100, "pressure": 982, "category": "Severe Cyclonic Storm" },
+      { "lat": 14.0, "lng": 84.5, "timestamp": "2019-04-30T00:00:00Z", "windSpeed": 140, "pressure": 962, "category": "Very Severe" },
+      { "lat": 15.5, "lng": 84.0, "timestamp": "2019-05-01T00:00:00Z", "windSpeed": 185, "pressure": 940, "category": "Extremely Severe" },
+      { "lat": 17.0, "lng": 84.0, "timestamp": "2019-05-02T00:00:00Z", "windSpeed": 215, "pressure": 932, "category": "Extremely Severe" },
+      { "lat": 19.8, "lng": 85.8, "timestamp": "2019-05-03T03:00:00Z", "windSpeed": 175, "pressure": 944, "category": "Extremely Severe" },
+      { "lat": 20.5, "lng": 86.5, "timestamp": "2019-05-03T12:00:00Z", "windSpeed": 120, "pressure": 968, "category": "Very Severe" },
+      { "lat": 21.5, "lng": 87.5, "timestamp": "2019-05-04T00:00:00Z", "windSpeed": 80, "pressure": 984, "category": "Severe Cyclonic Storm" },
+      { "lat": 22.5, "lng": 88.5, "timestamp": "2019-05-04T12:00:00Z", "windSpeed": 55, "pressure": 996, "category": "Deep Depression" },
+      { "lat": 24.0, "lng": 89.5, "timestamp": "2019-05-05T00:00:00Z", "windSpeed": 35, "pressure": 1002, "category": "Depression" }
+    ]
+  },
+  {
+    "id": "phailin",
+    "name": "Cyclone Phailin",
+    "year": 2013,
+    "category": "Extremely Severe Cyclonic Storm",
+    "landfallRegion": "Gopalpur, Ganjam",
+    "landfallDate": "2013-10-12",
+    "maxWindSpeed": 215,
+    "minPressure": 940,
+    "affectedDistricts": ["ganjam", "puri", "khordha", "gajapati", "nayagarh", "kandhamal", "cuttack", "jagatsinghpur"],
+    "description": "Cyclone Phailin struck Gopalpur in Ganjam district on 12 October 2013 with 215 km/h winds, triggering one of India's largest pre-landfall evacuations (~1 million people). Its southern Odisha landfall created severe wind and rainfall exposure across Ganjam, Gajapati, and Chilika basin districts.",
+    "timeline": [
+      { "date": "2013-10-08", "event": "Formation", "description": "Depression formed over the North Andaman Sea." },
+      { "date": "2013-10-09", "event": "Cyclonic Storm", "description": "Crossed Andaman Islands and strengthened into Cyclonic Storm Phailin." },
+      { "date": "2013-10-10", "event": "Rapid Intensification", "description": "Intensified rapidly into an Extremely Severe Cyclonic Storm over central Bay of Bengal." },
+      { "date": "2013-10-11", "event": "Peak Intensity", "description": "Sustained winds reached 215 km/h with central pressure 940 hPa." },
+      { "date": "2013-10-12", "event": "Landfall", "description": "Crossed Odisha coast near Gopalpur (Ganjam) around 21:00 IST." },
+      { "date": "2013-10-13", "event": "Inland Weakening", "description": "Moved northwestward across southern and central Odisha bringing heavy rainfall." },
+      { "date": "2013-10-14", "event": "Dissipation", "description": "Weakened into a low-pressure area over Jharkhand and Bihar." }
+    ],
+    "track": [
+      { "lat": 12.0, "lng": 95.5, "timestamp": "2013-10-08T00:00:00Z", "windSpeed": 45, "pressure": 1004, "category": "Depression" },
+      { "lat": 13.5, "lng": 92.5, "timestamp": "2013-10-09T06:00:00Z", "windSpeed": 75, "pressure": 994, "category": "Cyclonic Storm" },
+      { "lat": 15.0, "lng": 89.5, "timestamp": "2013-10-10T06:00:00Z", "windSpeed": 140, "pressure": 968, "category": "Very Severe" },
+      { "lat": 16.8, "lng": 87.2, "timestamp": "2013-10-11T06:00:00Z", "windSpeed": 215, "pressure": 940, "category": "Extremely Severe" },
+      { "lat": 18.2, "lng": 85.8, "timestamp": "2013-10-12T06:00:00Z", "windSpeed": 210, "pressure": 942, "category": "Extremely Severe" },
+      { "lat": 19.3, "lng": 84.9, "timestamp": "2013-10-12T15:00:00Z", "windSpeed": 195, "pressure": 948, "category": "Extremely Severe" },
+      { "lat": 20.5, "lng": 84.2, "timestamp": "2013-10-13T06:00:00Z", "windSpeed": 95, "pressure": 982, "category": "Severe Cyclonic Storm" },
+      { "lat": 22.4, "lng": 84.0, "timestamp": "2013-10-13T18:00:00Z", "windSpeed": 55, "pressure": 996, "category": "Deep Depression" },
+      { "lat": 24.2, "lng": 84.5, "timestamp": "2013-10-14T06:00:00Z", "windSpeed": 35, "pressure": 1002, "category": "Depression" }
+    ]
+  },
+  {
+    "id": "dana",
+    "name": "Cyclone Dana",
+    "year": 2024,
+    "category": "Severe Cyclonic Storm",
+    "landfallRegion": "Bhitarkanika–Dhamra, Kendrapara–Bhadrak",
+    "landfallDate": "2024-10-25",
+    "maxWindSpeed": 110,
+    "minPressure": 982,
+    "affectedDistricts": ["kendrapara", "bhadrak", "balasore", "jagatsinghpur", "jajpur", "mayurbhanj", "cuttack", "puri"],
+    "description": "Cyclone Dana made landfall between Bhitarkanika and Dhamra along northern coastal Odisha in late October 2024 as a Severe Cyclonic Storm. Heavy rainfall and estuarine surge affected Kendrapara, Bhadrak, and Balasore deltaic settlements.",
+    "timeline": [
+      { "date": "2024-10-22", "event": "Formation", "description": "Depression formed over Eastcentral Bay of Bengal." },
+      { "date": "2024-10-23", "event": "Cyclonic Storm", "description": "Intensified into Cyclonic Storm Dana moving northwestward." },
+      { "date": "2024-10-24", "event": "Severe Cyclonic Storm", "description": "Reached peak intensity of 110 km/h approaching northern Odisha coast." },
+      { "date": "2024-10-25", "event": "Landfall", "description": "Crossed coast near Bhitarkanika–Dhamra during early morning hours." },
+      { "date": "2024-10-26", "event": "Dissipation", "description": "Weakened over northern Odisha bringing widespread coastal rainfall." }
+    ],
+    "track": [
+      { "lat": 15.5, "lng": 90.2, "timestamp": "2024-10-22T06:00:00Z", "windSpeed": 45, "pressure": 1002, "category": "Depression" },
+      { "lat": 16.8, "lng": 88.9, "timestamp": "2024-10-23T06:00:00Z", "windSpeed": 75, "pressure": 994, "category": "Cyclonic Storm" },
+      { "lat": 18.6, "lng": 87.6, "timestamp": "2024-10-24T06:00:00Z", "windSpeed": 100, "pressure": 986, "category": "Severe Cyclonic Storm" },
+      { "lat": 20.1, "lng": 87.1, "timestamp": "2024-10-24T18:00:00Z", "windSpeed": 110, "pressure": 982, "category": "Severe Cyclonic Storm" },
+      { "lat": 20.8, "lng": 86.9, "timestamp": "2024-10-25T00:00:00Z", "windSpeed": 105, "pressure": 984, "category": "Severe Cyclonic Storm" },
+      { "lat": 21.2, "lng": 86.5, "timestamp": "2024-10-25T12:00:00Z", "windSpeed": 65, "pressure": 994, "category": "Cyclonic Storm" },
+      { "lat": 21.6, "lng": 85.8, "timestamp": "2024-10-26T06:00:00Z", "windSpeed": 35, "pressure": 1002, "category": "Depression" }
+    ]
+  }
+]
