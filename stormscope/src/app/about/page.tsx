@@ -37,11 +37,11 @@ const TECH_STACK = [
 ];
 
 const FUTURE_EXPANSIONS = [
-  "Additional Bay of Bengal cyclone case studies (e.g., Amphan, Yaas, Dana)",
-  "Integration of real SRTM Digital Elevation Models and Sentinel flood extents",
-  "Full OpenStreetMap infrastructure footprint ingestion via spatial pipelines",
-  "Multi-scenario comparison tools across coastal districts and states",
-  "Containerized backend Hazard, Exposure, and Validation engines",
+  "Additional Bay of Bengal cyclone archives (e.g., 1999 Super Cyclone, Yaas, Mocha)",
+  "Automated satellite & live IMD/Sentinel API ingestion pipelines",
+  "High-resolution 30m DEM & hydrodynamic flood-depth modeling",
+  "Multi-state eastern Indian coastline coverage (West Bengal, Andhra Pradesh)",
+  "Containerized backend Hazard, Exposure, and Validation engines behind API Gateway",
 ];
 
 export default function AboutPage() {
@@ -74,17 +74,20 @@ export default function AboutPage() {
                 vulnerability intuitively.
               </p>
               <p>
-                The Phase 1 Presentation MVP focuses on Odisha, India, anchored around
-                the 2019 Cyclone Fani case study. All datasets operate locally via
-                structured JSON and GeoJSON files to guarantee reliable, offline-capable
-                demonstrations.
+                Built across Phases 1–4 around Odisha, India, StormScope covers all
+                30 administrative districts and multiple historical cyclone
+                scenarios—Cyclone Fani (2019), Cyclone Phailin (2013), and Cyclone
+                Dana (2024)—alongside SRTM elevation bands, GPM rainfall swaths, and
+                a local GeoJSON/CSV validation pipeline. All datasets operate
+                locally via JSON and GeoJSON behind future-compatible service
+                adapters for offline-capable academic demonstrations.
               </p>
             </div>
           </SectionCard>
 
           <SectionCard
             title="Academic & Project Context"
-            subtitle="Phase 1 MVP Reference Profile"
+            subtitle="Phases 1–4 Reference Profile"
             className="lg:col-span-5"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
@@ -103,16 +106,16 @@ export default function AboutPage() {
                   Geographic Focus
                 </div>
                 <p className="mt-1.5 font-heading text-sm font-semibold text-cloud-white">
-                  Odisha, India
+                  Odisha (30 Districts)
                 </p>
               </div>
               <div className="rounded-[14px] bg-deep-ocean/70 border border-border-subtle p-4">
                 <div className="flex items-center gap-2 text-xs text-mist-gray">
                   <Radar className="h-3.5 w-3.5 text-monsoon-teal" />
-                  Case Study
+                  Case Studies
                 </div>
                 <p className="mt-1.5 font-heading text-sm font-semibold text-cloud-white">
-                  Cyclone Fani (2019)
+                  Fani, Phailin & Dana
                 </p>
               </div>
               <div className="rounded-[14px] bg-deep-ocean/70 border border-border-subtle p-4">

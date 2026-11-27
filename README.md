@@ -14,10 +14,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-For production build verification:
+For verification and production build:
 
 ```bash
 cd stormscope
+npm test
 npm run lint
 npm run build
 npm run start
@@ -26,9 +27,10 @@ npm run start
 ## Platform Routes
 
 - `/` — **Landing Page**: Problem overview, platform workflow, interactive Odisha map preview, and research context.
-- `/dashboard` — **Dashboard**: Summary metrics, cyclone/district/risk/layer controls, dominant MapLibre exposure map, exposure snapshot, district comparison chart, and planning recommendations.
-- `/explorer` — **Cyclone Explorer**: Cyclone Fani trajectory map, wind & central pressure evolution charts, interactive chronological timeline, and impact summary.
-- `/assessment` — **Site Assessment Workstation**: Location coordinate & building profile evaluation yielding historical exposure indicators and planning guidance.
+- `/dashboard` — **Dashboard**: Multi-cyclone scenario selector, 30-district selector & hover inspection, layer opacity controls (Districts, Wind Hazard, Coastal Flood/Surge, SRTM DEM, GPM Rainfall, Track, Infrastructure), exposure snapshot, district & asset charts, and Markdown brief export.
+- `/explorer` — **Cyclone Explorer**: Multi-cyclone trajectory map with interactive node-by-node playback, wind & central pressure charts, chronological timeline, and impact summary.
+- `/assessment` — **Assessment & Scenario Engine**: Site coordinate & building profile evaluation (with point-in-polygon district/flood intersection, factor weights, multi-cyclone sensitivity, JSON/Markdown export) plus a 30-district Scenario & Hazard Comparison matrix.
+- `/pipeline` — **Data Hub**: Phase 3 local GeoJSON and IMD-style CSV schema/bounds validation pipeline with one-click reference samples and live session layer registration.
 - `/methodology` — **Methodology**: Data sources, 5-stage pipeline, analytical assumptions, limitations, and future service-oriented architecture.
 - `/about` — **About**: Academic context, explicit scope boundaries, technology stack, and roadmap.
 

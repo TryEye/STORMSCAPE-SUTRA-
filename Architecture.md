@@ -374,28 +374,17 @@ Geospatial Datasets
 
 # 11. Folder Structure
 
-src/
-
-├── app/
-│
-├── components/
-│
-├── features/
-│ ├── dashboard/
-│ ├── cyclone/
-│ ├── exposure/
-│ ├── assessment/
-│ └── reporting/
-│
-├── data/
-│
-├── lib/
-│
-├── maps/
-│
-├── types/
-│
-└── styles/
+```text
+stormscope/src/
+├── app/                # App Router pages (/, /dashboard, /explorer, /assessment, /pipeline, /methodology, /about)
+├── components/         # Modular UI, layout, landing, dashboard, explorer, assessment, pipeline, maps
+├── context/            # Session DataRegistryContext for validated custom tracks & overlays
+├── data/               # Local JSON datasets + geo/ GeoJSON layers + geo.server.ts loader
+├── lib/                # Spatial point-in-polygon, repeatable scoring engine, pipeline validator, utils
+├── maps/               # Self-contained MapLibre style (cartoStyle.ts) & reusable layer builders (layers.ts)
+├── services/           # Async service contracts & local MVP adapters (Hazard, Exposure, Assessment, Validation, Reporting)
+└── types/              # Strict TypeScript domain models
+```
 
 ---
 
@@ -421,8 +410,8 @@ StormScope shall:
 
 Current Phase:
 
-Presentation-Oriented MVP
+Phases 1–4 Implemented (with Local Service Adapter Layer for Phase 5 Readiness)
 
 Primary Goal:
 
-Deliver a visually compelling historical cyclone exposure assessment platform suitable for academic demonstrations while preserving a migration path toward advanced geospatial processing capabilities.
+Deliver a visually compelling historical cyclone exposure assessment platform suitable for academic demonstrations while preserving a clean migration path via `src/services/` toward containerized backend geospatial processing engines.

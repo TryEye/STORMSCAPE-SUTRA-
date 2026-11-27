@@ -222,6 +222,13 @@ The architecture should remain compatible with future backend integration.
 
 # Session Log
 
+### Automated Core Tests & Documentation Alignment
+
+Implemented:
+
+- Added zero-dependency Node unit test suite (`stormscope/tests/core.test.mjs`, `npm test`) verifying spatial point-in-polygon matching, Phase 4 multi-cyclone scenario scoring, and Phase 3 GeoJSON/CSV validation pipelines
+- Synced `Architecture.md`, `README.md`, and `/about` (`src/app/about/page.tsx`) with implemented Phases 1–4 modules and `src/services/` local adapters
+
 ### Service-Adapter Readiness, Track Playback & Visual Polish
 
 Implemented:
